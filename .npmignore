@@ -1,0 +1,9 @@
+.*
+jest.config.js
+tslint.json
+typedoc.js
+yarn.lock
+*.tgz
+test/
+doc/
+coverage/
