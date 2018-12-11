@@ -1,3 +1,9 @@
 node_modules/
 coverage/
 *.tgz
+lib/**/*.js
+lib/**/*.map
+lib/**/*.d.ts
+test/**/*.js
+test/**/*.map
+test/**/*.d.ts
