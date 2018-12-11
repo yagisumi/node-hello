@@ -36,7 +36,7 @@ hello();
 [packagephobia-url]: https://packagephobia.now.sh/result?p=@yagisumi/hello
 [travis-image]: https://img.shields.io/travis/yagisumi/node-hello.svg?style=flat-square
 [travis-url]: https://travis-ci.org/yagisumi/node-hello
-[coveralls-image]: https://img.shields.io/coveralls/yagisumi/node-hello/badge.svg?style=flat-square
-[coveralls-url]: https://coveralls.io/r/yagisumi/node-hello
+[coveralls-image]: https://img.shields.io/coveralls/yagisumi/node-hello.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/github/yagisumi/node-hello?branch=master
 [dts-image]: https://img.shields.io/badge/DefinitelyTyped-.d.ts-blue.svg?style=flat-square
 [dts-url]: http://definitelytyped.org
