@@ -14,14 +14,14 @@ $ npm install --save @yagisumi/hello
 
 javascript
 ```js
-const XXXXXXXXX = require('@yagisumi/hello').hello;
+const hello = require('@yagisumi/hello').hello;
 
 hello();
 ```
 
 typescript
 ```ts
-import { @yagisumi/hello } from '@yagisumi/hello';
+import { hello } from '@yagisumi/hello';
 
 hello();
 ```
