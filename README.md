@@ -29,6 +29,10 @@ import { hello } from '@yagisumi/hello';
 hello(); // Hello!
 ```
 
+## Reference
+
+https://yagisumi.github.io/node-hello/
+
 ## License
 
 [MIT License](https://opensource.org/licenses/MIT)
