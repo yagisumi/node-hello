@@ -7,10 +7,13 @@ describe("function hello()", () => {
     hello()
     expect(console.log).toBeCalled()
     expect(consoleLog.mock.calls[0][0]).toBe("Hello!")
+    consoleLog.mockReset()
   })
+
   test("hello(name)", () => {
     hello("Bob")
     expect(console.log).toBeCalled()
-    expect(consoleLog.mock.calls[1][0]).toBe("Hello Bob!")
+    expect(consoleLog.mock.calls[0][0]).toBe("Hello Bob!")
+    consoleLog.mockReset()
   })
 })
