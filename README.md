@@ -13,14 +13,14 @@ $ npm i @yagisumi/hello
 
 ## Usage
 
-javascript
+- javascript
 ```js
 const hello = require('@yagisumi/hello').hello;
 
 hello();
 ```
 
-typescript
+- typescript
 ```ts
 import { hello } from '@yagisumi/hello';
 
