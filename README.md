@@ -1,4 +1,4 @@
-# hello
+# @yagisumi/hello
 
 [![NPM version][npm-image]][npm-url] [![install size][packagephobia-image]][packagephobia-url] [![Build Status][travis-image]][travis-url] [![Coverage percentage][coveralls-image]][coveralls-url] [![DefinitelyTyped][dts-image]][dts-url]
 
