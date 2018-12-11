@@ -16,19 +16,15 @@ javascript
 ```js
 const XXXXXXXXX = require('@yagisumi/hello').hello;
 
-XXXXXXXXX();
+hello();
 ```
 
 typescript
 ```ts
 import { @yagisumi/hello } from '@yagisumi/hello';
 
-XXXXXXXXX();
+hello();
 ```
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/yagisumi/node-hello.
 
 ## License
 
