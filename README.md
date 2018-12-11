@@ -3,7 +3,7 @@
 [![NPM version][npm-image]][npm-url] [![install size][packagephobia-image]][packagephobia-url] [![DefinitelyTyped][dts-image]][dts-url]  
 [![Build Status][travis-image]][travis-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 
-Welcome
+say hello.
 
 ## Installation
 
@@ -14,17 +14,19 @@ $ npm i @yagisumi/hello
 ## Usage
 
 - javascript
+
 ```js
 const hello = require('@yagisumi/hello').hello;
 
-hello();
+hello(); // Hello!
 ```
 
 - typescript
+
 ```ts
 import { hello } from '@yagisumi/hello';
 
-hello();
+hello(); // Hello!
 ```
 
 ## License
