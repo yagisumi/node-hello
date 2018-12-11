@@ -5,5 +5,5 @@ typedoc.js
 yarn.lock
 *.tgz
 test/
-doc/
+docs/
 coverage/
