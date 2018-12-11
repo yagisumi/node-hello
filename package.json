@@ -1,7 +1,7 @@
 {
   "name": "@yagisumi/hello",
   "version": "0.1.0",
-  "description": "",
+  "description": "say hello",
   "keywords": [],
   "private": true,
   "main": "lib/hello.js",
