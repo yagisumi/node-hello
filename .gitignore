@@ -1,6 +1,8 @@
 node_modules/
 coverage/
 *.tgz
+yarn.lock
+package-lock.json
 lib/**/*.js
 lib/**/*.map
 lib/**/*.d.ts
