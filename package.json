@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "say hello",
   "keywords": [],
-  "private": true,
+  "private": false,
   "main": "lib/hello.js",
   "types": "lib/hello.d.ts",
   "scripts": {
