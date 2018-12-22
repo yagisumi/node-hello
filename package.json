@@ -18,8 +18,7 @@
     "tslint": "tslint --exclude **/*.d.ts lib/**/*.{ts,tsx} test/**/*.ts",
     "tslint:json": "tslint --format json --exclude **/*.d.ts lib/**/*.{ts,tsx} test/**/*.ts",
     "tslint:fix": "tslint --fix --exclude **/*.d.ts lib/**/*.{ts,tsx} test/**/*.ts",
-    "prepack": "run-s build test",
-    "pretest": "run-s build:umd"
+    "prepack": "run-s build test"
   },
   "author": "Yagi Sumiya",
   "repository": "github:yagisumi/node-hello",
