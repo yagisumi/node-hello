@@ -1,4 +1,4 @@
-import { hello } from "../lib/hello"
+import { hello, _error } from "../lib/hello"
 
 describe("function hello()", () => {
   test("hello()", () => {
@@ -17,5 +17,11 @@ describe("function hello()", () => {
     expect(consoleLog.mock.calls[0][0]).toBe("Hello Bob!")
     consoleLog.mockReset()
     consoleLog.mockRestore()
+  })
+})
+
+describe("function _error()", () => {
+  test("_error()", () => {
+    expect(() => _error()).toThrow("error")
   })
 })

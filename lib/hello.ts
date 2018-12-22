@@ -10,3 +10,7 @@ export function hello(name?: string) {
     console.log("Hello!")
   }
 }
+
+export function _error() {
+  throw new Error("error")
+}
