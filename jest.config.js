@@ -13,7 +13,6 @@ module.exports = {
     'js',
     'jsx',
     'node',
-    'json',
   ],
   collectCoverage: true,
   collectCoverageFrom: [
