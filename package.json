@@ -11,7 +11,7 @@
     "test": "jest",
     "doc": "typedoc  --tsconfig ./lib/tsconfig.json --json ./docs/typedoc.json ./lib",
     "build": "run-s build:*",
-    "clean": "rimraf coverage {lib,test,umd}/**/*.{js,map,d.ts} *.tgz",
+    "clean": "rimraf coverage umd {lib,test}/**/*.{js,map,d.ts} *.tgz",
     "build:lib": "tsc -p lib",
     "build:test": "tsc -p test",
     "build:umd": "webpack",
