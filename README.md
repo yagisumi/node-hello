@@ -29,6 +29,12 @@ import { hello } from '@yagisumi/hello';
 hello(); // Hello!
 ```
 
+- web browser
+```html
+<script src='https://unpkg.com/@yagisumi/hello'></script>
+<script> hello(); </script>
+```
+
 ## Reference
 
 https://yagisumi.github.io/node-hello/
