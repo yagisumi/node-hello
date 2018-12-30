@@ -4,9 +4,9 @@ import typescript from "rollup-plugin-typescript2"
 import sourcemaps from "rollup-plugin-sourcemaps"
 
 export default {
-  input: "./lib/learn_rollup.ts",
+  input: "./lib/hello.ts",
   output: {
-    file: "./umd/learn_rollup.js",
+    file: "./umd/hello.js",
     format: "umd",
     name: "window",
     extend: true,

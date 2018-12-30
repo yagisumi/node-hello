@@ -2,9 +2,9 @@ import typescript from "rollup-plugin-typescript2"
 import sourcemaps from "rollup-plugin-sourcemaps"
 
 export default {
-  input: "./lib/learn_rollup.ts",
+  input: "./lib/hello.ts",
   output: {
-    file: "./lib/learn_rollup.mjs",
+    file: "./lib/hello.mjs",
     format: "es",
     sourcemap: true,
   },
