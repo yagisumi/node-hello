@@ -1,24 +1,24 @@
 import typescript from "rollup-plugin-typescript2"
-import sourcemaps from "rollup-plugin-sourcemaps"
 
 export default {
-  input: "./lib/hello.ts",
+  input: "./src/hello.ts",
   output: {
-    file: "./lib/hello.mjs",
-    format: "es",
+    file: "./lib/hello.js",
+    format: "cjs",
     sourcemap: true,
+    sourcemapExcludeSources: true,
   },
 
   plugins: [
     typescript({
-      tsconfig: "./lib/tsconfig.json",
+      tsconfig: "./src/tsconfig.json",
       tsconfigOverride: {
         compilerOptions: {
           module: "es2015",
+          sourceMap: true,
           declaration: false,
         },
       },
     }),
-    sourcemaps(),
   ],
 }
