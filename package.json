@@ -10,12 +10,14 @@
   "unpkg": "umd/hello.js",
   "scripts": {
     "test": "jest",
-    "doc": "typedoc  --tsconfig ./lib/tsconfig.json --json ./docs/typedoc.json ./lib",
+    "doc": "typedoc  --tsconfig ./src/tsconfig.json --json ./docs/typedoc.json ./src",
     "build": "run-s clean build:*",
-    "clean": "rimraf coverage umd {lib,test}/**/*.{js,mjs,map,d.ts} *.tgz .rpt2_cache",
-    "build:lib": "tsc -p lib",
-    "build:mjs": "rollup -c rollup.config.mjs.js",
+    "clean": "rimraf lib coverage umd {src,test}/**/*.{js,mjs,map,d.ts} *.tgz .rpt2_cache",
+    "build:cjs": "rollup -c -f cjs -o ./lib/hello.js",
+    "build:mjs": "rollup -c -f es -o ./lib/hello.mjs",
     "build:umd": "rollup -c rollup.config.umd.js",
+    "build:d_ts": "tsc -p src -d --emitDeclarationOnly --outDir ./lib",
+    "postbuild:d_ts": "node -e \"require('rimraf').sync('lib/*.d.ts', { glob: { ignore: 'lib/hello.d.ts' } })\"",
     "tslint": "tslint --exclude **/*.d.ts lib/**/*.{ts,tsx} test/**/*.ts",
     "tslint:json": "tslint --format json --exclude **/*.d.ts lib/**/*.{ts,tsx} test/**/*.ts",
     "tslint:fix": "tslint --fix --exclude **/*.d.ts lib/**/*.{ts,tsx} test/**/*.ts",
@@ -35,8 +37,8 @@
     "rimraf": "^2.6.2",
     "rollup": "^1.0.0",
     "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-istanbul": "^2.0.1",
     "rollup-plugin-node-resolve": "^4.0.0",
-    "rollup-plugin-sourcemaps": "^0.4.2",
     "rollup-plugin-typescript2": "^0.18.1",
     "ts-jest": "^23.10.5",
     "tslint": "^5.11.0",
@@ -45,5 +47,7 @@
     "typedoc": "^0.13.0",
     "typescript": "^3.2.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "rollup-plugin-terser": "^3.0.0"
+  }
 }

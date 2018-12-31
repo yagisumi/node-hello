@@ -1,4 +1,4 @@
-import { hello, _error } from "../lib/hello"
+import { hello, _error } from "../src/hello"
 
 describe("function hello()", () => {
   test("hello()", () => {
