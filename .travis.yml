@@ -8,3 +8,5 @@ after_script: cat ./coverage/lcov.info | coveralls
 before_script:
   - node --version
   - npm --version
+before_install:
+  - npm i -g npm@latest
