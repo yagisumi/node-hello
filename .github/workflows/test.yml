@@ -25,5 +25,5 @@ jobs:
         if: matrix.os == 'ubuntu-latest' && matrix.node == 12
         env:
           COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
-        run: cat ./coverage/lcov.info | npx coveralls
+        run: cat ./coverage/lcov.info | npx coveralls -v
 
