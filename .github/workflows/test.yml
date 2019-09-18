@@ -23,5 +23,5 @@ jobs:
       - run: npm test
       - name: coveralls
         if: matrix.os == 'ubuntu-latest' && matrix.node == 12
-        run: cat ./coverage/lcov.info | coveralls
+        run: cat ./coverage/lcov.info | npx coveralls
 
