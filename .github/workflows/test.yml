@@ -16,12 +16,15 @@ jobs:
       - name: Set Node.js
         uses: actions/setup-node@v1
         with:
-          version: ${{ matrix.node }}
-      - run: node -v
-      - run: npm -v
+          node-version: ${{ matrix.node }}
+      - run: |
+        node -v
+        npm -v
       - run: npm install
       - run: npm test
       - name: coveralls
         if: matrix.os == 'ubuntu-latest' && matrix.node == 12
+        env:
+          COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
         run: cat ./coverage/lcov.info | npx coveralls
 
