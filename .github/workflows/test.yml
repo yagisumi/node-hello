@@ -18,7 +18,6 @@ jobs:
           version: ${{ matrix.node }}
       - run: node -v
       - run: npm -v
-      - run: npm i -g npm@latest
-      - run: npm ci
+      - run: npm install
       - run: npm test
 
