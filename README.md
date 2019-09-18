@@ -3,7 +3,7 @@
 say hello.
 
 [![NPM version][npm-image]][npm-url] [![install size][packagephobia-image]][packagephobia-url] [![DefinitelyTyped][dts-image]][dts-url]  
-[![Build Status][travis-image]][travis-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+[![Build Status][githubactions-image]][githubactions-url] [![Build Status][travis-image]][travis-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 
 ## Installation
 
@@ -43,6 +43,8 @@ https://yagisumi.github.io/node-hello/
 
 [MIT License](https://opensource.org/licenses/MIT)
 
+[githubactions-image]: https://github.com/yagisumi/node-hello/workflows/build/badge.svg
+[githubactions-url]: https://github.com/yagisumi/node-hello/actions
 [npm-image]: https://img.shields.io/npm/v/@yagisumi/hello.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/@yagisumi/hello
 [packagephobia-image]: https://flat.badgen.net/packagephobia/install/@yagisumi/hello
