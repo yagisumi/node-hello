@@ -16,7 +16,7 @@ $ npm i @yagisumi/hello
 - javascript
 
 ```js
-const hello = require('@yagisumi/hello').hello;
+const { hello } = require('@yagisumi/hello');
 
 hello(); // Hello!
 ```
