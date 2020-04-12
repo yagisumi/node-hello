@@ -43,7 +43,7 @@ https://yagisumi.github.io/node-hello/
 
 [MIT License](https://opensource.org/licenses/MIT)
 
-[githubactions-image]: https://github.com/yagisumi/node-hello/workflows/build/badge.svg
+[githubactions-image]: https://img.shields.io/github/workflow/status/yagisumi/node-hello/build?logo=github&style=flat-square
 [githubactions-url]: https://github.com/yagisumi/node-hello/actions
 [npm-image]: https://img.shields.io/npm/v/@yagisumi/hello.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/@yagisumi/hello
