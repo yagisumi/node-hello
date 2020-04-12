@@ -2,7 +2,7 @@
 
 say hello.
 
-[![NPM version][npm-image]][npm-url] [![install size][packagephobia-image]][packagephobia-url] [![DefinitelyTyped][dts-image]][dts-url]  
+[![NPM version][npm-image]][npm-url] ![Requirements][node-ver-image] [![install size][packagephobia-image]][packagephobia-url] [![DefinitelyTyped][dts-image]][dts-url]  
 [![Build Status][githubactions-image]][githubactions-url] [![Build Status][travis-image]][travis-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 
 ## Installation
@@ -55,3 +55,4 @@ https://yagisumi.github.io/node-hello/
 [coveralls-url]: https://coveralls.io/github/yagisumi/node-hello?branch=master
 [dts-image]: https://img.shields.io/badge/DefinitelyTyped-.d.ts-blue.svg?style=flat-square
 [dts-url]: http://definitelytyped.org
+[node-ver-image]: https://img.shields.io/node/v/@yagisumi/hello?style=flat-square
